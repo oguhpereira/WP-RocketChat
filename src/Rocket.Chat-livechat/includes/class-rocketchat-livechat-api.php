@@ -1,39 +1,13 @@
 <?php
-/**
- * The file contains main REST API logic
- *
- *
- * @link       http://rocket.chat
- * @since      1.1.0
- *
- * @package    Rocketchat_Livechat
- * @subpackage Rocketchat_Livechat/includes
- */
 
-/**
- * The REST API class.
- *
- * This class contains methods for accessing all of the REST API endpoints
- *
- *
- * @since      1.1.0
- * @package    Rocketchat_Livechat
- * @subpackage Rocketchat_Livechat/includes
- * @author     Marko Banušić <mbanusic@gmail.com>
- */
+class RocketChatLivechat_REST_API {
 
-class Rocketchat_Livechat_REST_API {
-
-	public function __construct() {
-
-	}
+	public function __construct() {}
 
 	/**
 	 * Method to create authenticated request to REST API
-	 *
 	 * @param string $end_point,
 	 * @param array|string|bool $payload
-	 *
 	 * @return array
 	 */
 	private function make_request( $end_point, $payload = false ) {

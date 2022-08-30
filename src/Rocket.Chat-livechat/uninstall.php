@@ -4,10 +4,9 @@
  * Fired when the plugin is uninstalled.
  *
  *
- * @link       http://rocket.chat
- * @since      1.0.0
+
  *
- * @package    Rocketchat_Livechat
+ * @package    RocketChatLivechat
  */
 
 // If uninstall not called from WordPress, then exit.

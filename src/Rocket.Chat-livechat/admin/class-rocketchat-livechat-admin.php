@@ -1,31 +1,11 @@
 <?php
 
-/**
- * The admin-specific functionality of the plugin.
- *
- * @link       http://rocket.chat
- * @since      1.0.0
- *
- * @package    Rocketchat_Livechat
- * @subpackage Rocketchat_Livechat/admin
- */
-
-/**
- * The admin-specific functionality of the plugin.
- *
- * Defines the plugin name, version, and two examples hooks for how to
- * enqueue the admin-specific stylesheet and JavaScript.
- *
- * @package    Rocketchat_Livechat
- * @subpackage Rocketchat_Livechat/admin
- * @author     Marko Banušić <mbanusic@gmail.com>
- */
-class Rocketchat_Livechat_Admin {
+class RocketChatLivechat_Admin {
 
 	/**
 	 * The ID of this plugin.
 	 *
-	 * @since    1.0.0
+	 
 	 * @access   private
 	 * @var      string $plugin_name The ID of this plugin.
 	 */
@@ -34,7 +14,6 @@ class Rocketchat_Livechat_Admin {
 	/**
 	 * The version of this plugin.
 	 *
-	 * @since    1.0.0
 	 * @access   private
 	 * @var      string $version The current version of this plugin.
 	 */
@@ -43,16 +22,12 @@ class Rocketchat_Livechat_Admin {
 	/**
 	 * Initialize the class and set its properties.
 	 *
-	 * @since    1.0.0
-	 *
 	 * @param      string $plugin_name The name of this plugin.
 	 * @param      string $version The version of this plugin.
 	 */
 	public function __construct( $plugin_name, $version ) {
-
 		$this->plugin_name = $plugin_name;
 		$this->version     = $version;
-
 	}
 
 
@@ -77,7 +52,7 @@ class Rocketchat_Livechat_Admin {
 	}
 
 	public function menu() {
-		add_menu_page('Rocket.Chat LiveChat', 'Rocket.Chat', 'administrator', __FILE__,  array(
+		add_menu_page('Rocket.Chat LiveChat', 'Rocket.Chat LiveChat', 'administrator', __FILE__,  array(
 			$this,
 			'options'
 		) , plugins_url('../public/icon.svg', __FILE__) );

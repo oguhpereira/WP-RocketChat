@@ -2,20 +2,18 @@
 /**
  *
  * @link              https://rocket.chat
- * @since             1.0.0
- * @package           Rocketchat_Livechat
- *
- * @wordpress-plugin
- * Plugin Name:       Rocket.Chat LiveChat
- * Plugin URI:        http://rocket.chat
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.4
+ * @package           Rocket.chat.Livechat
+ * @version           1.1.0
+ *	
+ * Plugin Name:       Rocket.Chat.LiveChat
+ * Plugin URI:        https://github.com/oguhpereira/WP-RocketChat
+ * Description:       This is a plugin to enable the use of rocket chat live chat on the site. If you have a rocket chat server with live chat active, you can configure it.
+ * Version:           1.1.0
  * Author:            Rocket.Chat
  * Author URI:        https://rocket.chat
  * License:           GPL-3.0
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * License URI:       https://github.com/oguhpereira/WP-RocketChat/blob/develop/LICENSE
  * Text Domain:       rocketchat-livechat
- * Domain Path:       /languages
  */
 
 // If this file is called directly, abort.
@@ -29,7 +27,7 @@ if ( ! defined( 'WPINC' ) ) {
  */
 function activate_rocketchat_livechat() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-rocketchat-livechat-activator.php';
-	Rocketchat_Livechat_Activator::activate();
+	RocketChatLivechat_Activator::activate();
 }
 
 /**
@@ -38,7 +36,7 @@ function activate_rocketchat_livechat() {
  */
 function deactivate_rocketchat_livechat() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-rocketchat-livechat-deactivator.php';
-	Rocketchat_Livechat_Deactivator::deactivate();
+	RocketChatLivechat_Deactivator::deactivate();
 }
 
 register_activation_hook( __FILE__, 'activate_rocketchat_livechat' );
@@ -57,11 +55,11 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-rocketchat-livechat.php';
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    1.0.0
+ 
  */
 function run_rocketchat_livechat() {
 
-	$plugin = new Rocketchat_Livechat();
+	$plugin = new RocketChatLivechat();
 	$plugin->run();
 
 }

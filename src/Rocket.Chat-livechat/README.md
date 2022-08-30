@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: rocketchat, mbanusic, junglewp
+Contributors: rocketchat, mbanusic, junglewp, oguhpereira
 Donate link: https://rocket.chat
 Tags: rocket.chat, chat, livechat, support, sales
 Requires at least: 3.0.1
