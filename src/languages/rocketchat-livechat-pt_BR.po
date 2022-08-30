@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Project-Id-Version: Rocket.Chat LiveChat\n"
 "POT-Creation-Date: 2016-08-16 21:16+0200\n"
-"PO-Revision-Date: 2022-08-30 18:26+0000\n"
+"PO-Revision-Date: 2022-08-30 18:40+0000\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "MIME-Version: 1.0\n"
@@ -22,9 +22,32 @@ msgstr ""
 "Language: pt_BR\n"
 "X-Loco-Version: 2.6.2; wp-5.7.2"
 
-#: admin/class-rocketchat-livechat-admin.php:86
-msgid "URL of LiveChat"
-msgstr "URL do LiveChat"
+#: admin/class-rocketchat-livechat-admin.php:112
+msgid "Enter your password"
+msgstr "Digite sua senha"
+
+#: admin/class-rocketchat-livechat-admin.php:101
+msgid "Enter your username"
+msgstr "Digite o nome do seu usuário"
+
+#. Author URI of the plugin/theme
+msgid "http://nezn.am"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://rocket.chat"
+msgstr ""
+
+msgid "Livechat settings"
+msgstr "Configuração do Livechat"
+
+#. Author of the plugin/theme
+msgid "Marko Banušić"
+msgstr ""
+
+#: admin/class-rocketchat-livechat-admin.php:107
+msgid "Password"
+msgstr "Senha"
 
 #: admin/class-rocketchat-livechat-admin.php:91
 msgid ""
@@ -34,21 +57,10 @@ msgstr ""
 "Insira o URL da sua instância do Rocket.Chat (por exemplo, https://chat."
 "domain.tld/)"
 
-#: admin/class-rocketchat-livechat-admin.php:96
-msgid "Username"
-msgstr "Nome do usuário"
-
-#: admin/class-rocketchat-livechat-admin.php:101
-msgid "Enter your username"
-msgstr "Digite o nome do seu usuário"
-
-#: admin/class-rocketchat-livechat-admin.php:107
-msgid "Password"
-msgstr "Senha"
-
-#: admin/class-rocketchat-livechat-admin.php:112
-msgid "Enter your password"
-msgstr "Digite sua senha"
+#. Description of the plugin/theme
+msgid "Plugin to provide Rocket.Chat Live Chat functionality to WordPress"
+msgstr ""
+"Plugin para fornecer funcionalidade do livechat do Rocket.Chat para WordPress"
 
 #. Plugin Name of the plugin/theme
 #: admin/class-rocketchat-livechat-admin.php:121
@@ -59,19 +71,10 @@ msgstr "Rocket.Chat LiveChat"
 msgid "Rocket.Chat options"
 msgstr "Opções do Rocket.Chat"
 
-#. Plugin URI of the plugin/theme
-msgid "http://rocket.chat"
-msgstr ""
+#: admin/class-rocketchat-livechat-admin.php:86
+msgid "URL of LiveChat"
+msgstr "URL do LiveChat"
 
-#. Description of the plugin/theme
-msgid "Plugin to provide Rocket.Chat Live Chat functionality to WordPress"
-msgstr ""
-"Plugin para fornecer funcionalidade do livechat do Rocket.Chat para WordPress"
-
-#. Author of the plugin/theme
-msgid "Marko Banušić"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "http://nezn.am"
-msgstr ""
+#: admin/class-rocketchat-livechat-admin.php:96
+msgid "Username"
+msgstr "Nome do usuário"
