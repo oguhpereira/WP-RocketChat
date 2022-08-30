@@ -14,6 +14,7 @@
  * License:           GPL-3.0
  * License URI:       https://github.com/oguhpereira/WP-RocketChat/blob/develop/LICENSE
  * Text Domain:       rocketchat-livechat
+ * Domain Path:       /languages
  */
 
 // If this file is called directly, abort.

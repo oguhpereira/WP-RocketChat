@@ -40,7 +40,7 @@ class RocketChatLivechat_Admin {
 		);
 		add_settings_section( 'rocketchat-livechat-options-head', 'LiveChat API settings', '', 'rocketchat-livechat-options' );
 		add_settings_field(
-			'rocketchat-livechat-url', __( 'URL of LiveChat', 'rocketchat-livechat' ), array(
+			'rocketchat-livechat-url', __('URL of LiveChat', 'rocketchat-livechat'), array(
 			$this,
 			'settings_text'
 		), 'rocketchat-livechat-options', 'rocketchat-livechat-options-head', array(
