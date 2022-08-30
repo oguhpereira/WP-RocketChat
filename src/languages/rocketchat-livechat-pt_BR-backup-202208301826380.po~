@@ -1,36 +1,37 @@
 msgid ""
 msgstr ""
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Project-Id-Version: Rocket.Chat LiveChat\n"
-"POT-Creation-Date: 2022-08-30 14:32-0300\n"
-"PO-Revision-Date: 2022-08-30 14:34-0300\n"
+"POT-Creation-Date: 2016-08-16 21:16+0200\n"
+"PO-Revision-Date: 2022-08-30 18:24+0000\n"
 "Last-Translator: \n"
-"Language-Team: \n"
-"Language: pt_BR\n"
+"Language-Team: Português do Brasil\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Loco https://localise.biz/\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: rocketchat-livechat.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
+"\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: pt_BR\n"
+"X-Loco-Version: 2.6.2; wp-5.7.2"
 
 #: admin/class-rocketchat-livechat-admin.php:86
 msgid "URL of LiveChat"
-msgstr "URL do LiveChat"
+msgstr ""
 
 #: admin/class-rocketchat-livechat-admin.php:91
 msgid ""
 "Please enter the URL to your Rocket.Chat instance (e.g. https://chat.domain."
 "tld/)"
 msgstr ""
-"Por favor adicione o link do seu servidor de rocket chat (e.g. https://chat."
-"domain.tld/)"
 
 #: admin/class-rocketchat-livechat-admin.php:96
 msgid "Username"
@@ -38,7 +39,7 @@ msgstr ""
 
 #: admin/class-rocketchat-livechat-admin.php:101
 msgid "Enter your username"
-msgstr "Adicione seu username"
+msgstr ""
 
 #: admin/class-rocketchat-livechat-admin.php:107
 msgid "Password"
@@ -46,7 +47,7 @@ msgstr ""
 
 #: admin/class-rocketchat-livechat-admin.php:112
 msgid "Enter your password"
-msgstr "Adicione seu password"
+msgstr ""
 
 #. Plugin Name of the plugin/theme
 #: admin/class-rocketchat-livechat-admin.php:121
@@ -64,8 +65,6 @@ msgstr ""
 #. Description of the plugin/theme
 msgid "Plugin to provide Rocket.Chat Live Chat functionality to WordPress"
 msgstr ""
-"Plugin para fornecer funcionalidade de bate-papo ao vivo do Rocket.Chat "
-"para WordPress"
 
 #. Author of the plugin/theme
 msgid "Marko Banušić"
